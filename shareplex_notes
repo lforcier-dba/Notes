@@ -1,0 +1,2 @@
+truncate by size the last file without removing
+truncate -s 1G o.dbname1_errlog.sql

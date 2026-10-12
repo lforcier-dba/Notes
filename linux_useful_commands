@@ -2,3 +2,14 @@ du -a /app/oracle | sort -n -r | head -n 20
 
 remove blak lines from a text file in vi:
 :g/^$/d
+
+
+#############################################################
+PS1='$PWD>'
+## Set the prompt for better readability
+######## Set Prompt #################
+NetworkNode=`uname -n`
+export  PS1='${LOGNAME}@${ORACLE_SID}${HOST}:${PWD} \
+$ '
+export  PS2='$$ '
+#############################################################

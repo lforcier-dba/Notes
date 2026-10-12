@@ -1,3 +1,8 @@
 expdp \'/ as sysdba\'
 @?/rdbms/admin/awrddrpt
 awrddrpt.sql
+
+
+./ahf_setup -tmp_loc /oracle/software
+
+alter system set db_recovery_file_dest_size=320G scope=both sid='*';

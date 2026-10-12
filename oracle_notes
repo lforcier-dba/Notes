@@ -1,0 +1,3 @@
+expdp \'/ as sysdba\'
+@?/rdbms/admin/awrddrpt
+awrddrpt.sql
